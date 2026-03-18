@@ -1,0 +1,9 @@
+﻿namespace Lab1.Domain.Enums;
+
+public enum Role
+{
+    Professor,
+    Assistant,
+    Demonstrator,
+    Tutor
+}

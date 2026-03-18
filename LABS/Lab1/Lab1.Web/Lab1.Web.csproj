@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>aspnet-Lab1.Web-3c4ce06f-f6e0-43c8-9bbc-ee71e975644a</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Evolve" Version="3.2.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="10.0.3"/>
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="10.0.3"/>
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="10.0.3"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.5" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.3"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.3"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Lab1.Domain\Lab1.Domain.csproj" />
+      <ProjectReference Include="..\Lab1.Repository\Lab1.Repository.csproj" />
+      <ProjectReference Include="..\Lab1.Services\Lab1.Services.csproj" />
+    </ItemGroup>
+
+</Project>
