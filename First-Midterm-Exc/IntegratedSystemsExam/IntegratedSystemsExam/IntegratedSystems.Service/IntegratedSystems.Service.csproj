@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Interface\" />
+    <Folder Include="Implementation\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IntegratedSystems.Domain\IntegratedSystems.Domain.csproj" />
+    <ProjectReference Include="..\IntegratedSystems.Repository\IntegratedSystems.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

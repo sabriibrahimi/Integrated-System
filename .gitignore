@@ -1,0 +1,13 @@
+﻿/First-Midterm-Exc/HotelApplication/HotelApplication/HotelApplication.Domain/bin/
+/First-Midterm-Exc/HotelApplication/HotelApplication/HotelApplication.Repository/bin/
+/First-Midterm-Exc/HotelApplication/HotelApplication/HotelApplication.Service/bin/
+/First-Midterm-Exc/__MACOSX/ConsultationsApplicationStarter/Domain/bin/
+/First-Midterm-Exc/__MACOSX/ConsultationsApplicationStarter/Repository/bin/
+
+# Global build folders
+**/bin/
+**/obj/
+
+# IDE settings and OS junk
+**/.idea/
+**/__MACOSX/

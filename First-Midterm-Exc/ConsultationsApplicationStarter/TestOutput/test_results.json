@@ -1,0 +1,155 @@
+[
+  {
+    "TestName": "MapperReflectionTests.AttendanceMapper_GetAllByConsultationIdAsync_ShouldReturnList",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "Mappers",
+    "IsPassed": true,
+    "ExecutedAt": "2026-04-06T00:58:00.3131291+02:00",
+    "ErrorMessage": null,
+    "Points": 5
+  },
+  {
+    "TestName": "MapperReflectionTests.AttendanceMapper_RegisterAsync_ShouldReturnCorrectFields",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "Mappers",
+    "IsPassed": true,
+    "ExecutedAt": "2026-04-06T00:58:01.1814318+02:00",
+    "ErrorMessage": null,
+    "Points": 5
+  },
+  {
+    "TestName": "AttendanceControllerTests.MarkAsAbsent_ShouldReturn200",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "AttendanceController",
+    "IsPassed": true,
+    "ExecutedAt": "2026-04-06T00:58:03.5718193+02:00",
+    "ErrorMessage": null,
+    "Points": 10
+  },
+  {
+    "TestName": "AttendanceControllerTests.Register_ShouldIncrementConsultationStudentCount",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "AttendanceController",
+    "IsPassed": true,
+    "ExecutedAt": "2026-04-06T00:58:05.9067548+02:00",
+    "ErrorMessage": null,
+    "Points": 5
+  },
+  {
+    "TestName": "AttendanceControllerTests.GetByConsultation_ShouldReturnJsonArrayWithExpectedFields",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "AttendanceController",
+    "IsPassed": true,
+    "ExecutedAt": "2026-04-06T00:58:08.0521249+02:00",
+    "ErrorMessage": null,
+    "Points": 10
+  },
+  {
+    "TestName": "AttendanceControllerTests.Register_ValidRequest_ShouldCreateAndReturnFields",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "AttendanceController",
+    "IsPassed": true,
+    "ExecutedAt": "2026-04-06T00:58:10.1384609+02:00",
+    "ErrorMessage": null,
+    "Points": 10
+  },
+  {
+    "TestName": "AttendanceControllerTests.GetByConsultation_EmptyConsultation_ShouldReturnEmptyArray",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "AttendanceController",
+    "IsPassed": true,
+    "ExecutedAt": "2026-04-06T00:58:12.2146146+02:00",
+    "ErrorMessage": null,
+    "Points": 5
+  },
+  {
+    "TestName": "AttendanceControllerTests.Delete_ValidId_ShouldReturn200",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "AttendanceController",
+    "IsPassed": true,
+    "ExecutedAt": "2026-04-06T00:58:14.3367042+02:00",
+    "ErrorMessage": null,
+    "Points": 10
+  },
+  {
+    "TestName": "AttendanceControllerTests.UploadCancelationReason_ShouldReturn200",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "AttendanceController",
+    "IsPassed": true,
+    "ExecutedAt": "2026-04-06T00:58:16.4294309+02:00",
+    "ErrorMessage": null,
+    "Points": 10
+  },
+  {
+    "TestName": "AttendanceControllerTests.Delete_InvalidId_ShouldReturnError",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "AttendanceController",
+    "IsPassed": true,
+    "ExecutedAt": "2026-04-06T00:58:18.5232721+02:00",
+    "ErrorMessage": null,
+    "Points": 5
+  },
+  {
+    "TestName": "ConsultationControllerTests.GetAll_ShouldReturnJsonArrayWithExpectedFields",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "ConsultationController",
+    "IsPassed": true,
+    "ExecutedAt": "2026-04-06T00:58:20.6584453+02:00",
+    "ErrorMessage": null,
+    "Points": 8
+  },
+  {
+    "TestName": "ConsultationControllerTests.Register_ShouldIncrementCount",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "ConsultationController",
+    "IsPassed": true,
+    "ExecutedAt": "2026-04-06T00:58:22.7584311+02:00",
+    "ErrorMessage": null,
+    "Points": 5
+  },
+  {
+    "TestName": "ConsultationControllerTests.Delete_ValidId_ShouldDeleteAndReturn",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "ConsultationController",
+    "IsPassed": true,
+    "ExecutedAt": "2026-04-06T00:58:24.8416835+02:00",
+    "ErrorMessage": null,
+    "Points": 10
+  },
+  {
+    "TestName": "ConsultationControllerTests.Update_ValidRequest_ShouldUpdateAndReturnFields",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "ConsultationController",
+    "IsPassed": true,
+    "ExecutedAt": "2026-04-06T00:58:26.8861162+02:00",
+    "ErrorMessage": null,
+    "Points": 10
+  },
+  {
+    "TestName": "ConsultationControllerTests.Register_ValidRequest_ShouldCreateAndReturnFields",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "ConsultationController",
+    "IsPassed": true,
+    "ExecutedAt": "2026-04-06T00:58:29.0221631+02:00",
+    "ErrorMessage": null,
+    "Points": 10
+  },
+  {
+    "TestName": "ConsultationControllerTests.GetPaged_ShouldReturnPaginatedResponse",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "ConsultationController",
+    "IsPassed": true,
+    "ExecutedAt": "2026-04-06T00:58:31.1350713+02:00",
+    "ErrorMessage": null,
+    "Points": 10
+  },
+  {
+    "TestName": "ConsultationControllerTests.GetAll_WithRoomFilter_ShouldFilterResults",
+    "StudentId": "YOUR_INDEX_HERE",
+    "TestCategory": "ConsultationController",
+    "IsPassed": true,
+    "ExecutedAt": "2026-04-06T00:58:33.1779603+02:00",
+    "ErrorMessage": null,
+    "Points": 7
+  }
+]
